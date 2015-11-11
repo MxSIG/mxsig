@@ -1,0 +1,98 @@
+/* Plantilla -----------------------------------------------------*/
+/*Sprite--------------*/
+.scaleControl-sprite{background-image: url(sprite.png);background-repeat: no-repeat;}
+
+.scaleControl-icon-zoomin{background-position: 0px -0px; width: 22px;height: 22px; display:block;}
+.scaleControl-icon-zoomin:hover{background-position: 0px -22px; width: 22px;height: 22px; display:block;}
+
+.scaleControl-icon-extent{background-position: -22px -0px; width: 22px;height: 22px; display:block;}
+.scaleControl-icon-extent:hover{background-position: -22px -22px; width: 22px;height: 22px; display:block;}
+
+.scaleControl-icon-zoomout{background-position: -44px -0px; width: 22px;height: 22px; display:block;}
+.scaleControl-icon-zoomout:hover{background-position: -44px -22px; width: 22px;height: 22px; display:block;}
+/*--------------------------------------------------*/
+
+.custom-scaleControl div{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    height: 26px;
+    padding-left: 4px;
+    padding-top: 1px;
+}
+.custom-scaleControl{
+    position: absolute;
+    right: 20px;
+    width: 32px;
+    height: 75px;
+    top: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1900;
+    
+    background-color: #FFF;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+    -moz-box-shadow:    1px 1px 2px 0px #555;
+    -webkit-box-shadow: 1px 1px 2px 0px #555;
+    box-shadow:         1px 1px 2px 0px #555;
+}
+.custom-scaleControl-zoomin:hover{
+    background-color: #EEE;
+}
+.custom-scaleControl-zoomin{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    background-color: #FFF;
+    border:1px solid #DDD;
+    
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.custom-scaleControl-extent:hover{
+    background-color: #EEE;
+}
+
+.custom-scaleControl-extent{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    right: 0px;
+    
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
+.custom-scaleControl-zoomout:hover{
+    background-color: #EEE;
+}
+.custom-scaleControl-zoomout{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

@@ -1,0 +1,406 @@
+@import url("sprite.css");
+*:focus {
+    outline: 0;
+}
+.custom-layerManager{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 28px;
+    background-color: #FFF;
+    z-index: 2000;
+}
+.layerManager-timeBtn{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 28px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+.layerManager-timeBtn span{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.layerManager-miniMap-box{
+   position: absolute;
+   right: -1px;
+   bottom: -1px;
+   width: 230px;
+   height: 135px;
+   overflow: hidden;
+   
+   background-color: #FFF;
+   border-left: 1px solid #DDD;
+   border-top: 1px solid #DDD;
+}
+.layerManager-miniMap{
+    position: absolute;
+    top: 18px;
+    width: 190px;
+    right: 5px;
+    bottom: 5px;
+}
+.layerManager-miniMap-leftLine{
+   position: absolute;
+   top: 0px;
+   bottom: 0px;
+   right: 229px;
+   width: 7px;
+   background-color: #FFF;
+   background-size: cover;
+}
+.layerManager-h-container{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 231px;
+	height: 28px;
+	overflow-y: hidden;
+}
+.layerManager-btnLayers{
+    bottom: 28px;
+    left: 3px;
+    position: absolute;
+    top: 53px;
+    width: 30px;
+	cursor: pointer;
+}
+.layerManager-btnLayers .layerManager-iconLayers-m{
+	position: absolute;
+	top: 8px;
+	left: 0px;
+}
+.layerManager-btnLayers-selection{
+	position: absolute;
+	right: 18px;
+	left: 2px;
+	top: 1px;
+	bottom: 1px;
+	text-align: center;
+}
+.layerManager-btnLayersConf{
+    cursor: pointer;
+    height: 29px;
+    left: 3px;
+    position: absolute;
+    top: 22px;
+    width: 30px;
+}
+.layerManager-btnLayersConf:hover{
+	background-color: #EEE;
+}
+.layerManager-btnLayersConf .layerManager-iconGears{
+	position: absolute;
+	top: 1px;left: 2px;
+}
+
+.layerManager-miniMap-box .layerManager-btnCollapse{
+	cursor: pointer;
+    height: 15px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 16px;
+}
+
+
+
+.layerManager-btnBaseLayer{
+    cursor: pointer;
+    height: 15px;
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    width: 180px;
+}
+.layerManager-btnBaseLayer:hover{
+	background-color: #EEEEEE;
+}
+.layerManager-btnBaseLayer .layerManager-iconOptions{
+	float: right;
+}
+
+
+/* bottom Carrucel ---------------------------------------*/
+layerManager_h_c_item_img img{
+    
+}
+.layerManager-h-dataContainer{
+    position: absolute;
+}
+.layerManager_h_content{
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	/*border-right: 1px solid #CCC;*/
+    bottom: -1px;
+    height: 136px;
+    left: 28px;
+    position: absolute;
+    right: 28px;
+	overflow: hidden;
+}
+.layerManager_h_btnLeft{
+	border: 1px solid #CCC;
+    bottom: 28px;
+    height: 106px;
+    left: 0px;
+    position: absolute;
+    width: 28px;
+	cursor: pointer;
+}
+.layerManager_h_btnLeft span{position: absolute;top: 38px;}
+.layerManager_h_btnLeft:hover{
+	background-color: #BBB;
+}
+
+.layerManager_h_btnRight{
+	border: 1px solid #CCC;
+    bottom: 28px;
+    height: 106px;
+    right: 0px;
+    position: absolute;
+    width: 27px;
+	cursor: pointer;
+}
+.layerManager_h_btnRight span{position: absolute;top: 38px;}
+.layerManager_h_btnRight:hover{
+	background-color: #BBB;
+}
+
+.layerManager_h_c_slider{
+ height: 136px;
+ position: absolute;
+ left: 0px;
+}
+.layerManager_h_c_item{
+	float: left;
+	display: inline-block;
+	cursor: pointer;
+	width: 170px;
+    height: 135px;
+	border-left: 1px solid #CCC;
+}
+.layerManager_h_c_item:hover{
+	background-image: url(bg_b_20.png)
+}
+
+.layerManager_h_c_item:last-child{border-right: 1px solid #CCC;}
+
+.layerManager_h_c_item_img{
+	width: 100%;
+    height: 106px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.layerManager_h_c_item_label{
+    height: 26px;
+    margin-top: 2px;
+    padding-top: 6px;
+    width: 170px;
+	text-align: center;
+}
+/*Right Carrucel -------------------------------------------*/
+.layerManager-v-container{
+	position: absolute;
+	right: 0px;
+	bottom: 137px;
+	top: 0px;
+	width: 0px; /*231*/
+	border-left: 1px solid #DDD;
+	overflow: hidden;
+    z-index: 2000;
+}
+.layerManager_v_btnTop{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 28px;
+	right: 0px;
+	text-align: center;
+	cursor: pointer;
+}
+.layerManager_v_btnTop span{
+	margin-left: 45%;
+}
+.layerManager_v_btnBottom{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 28px;
+	right: 0px;
+	text-align: center;
+	cursor: pointer;
+}
+.layerManager_v_btnBottom span{
+	margin-left: 45%;
+}
+.layerManager_v_content{
+    background-image: url(bg_b_20.png);
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 28px;
+	bottom: 28px;
+	overflow: hidden;
+}
+.layerManager_v_c_item{
+	width: 230px;
+    height: 140px;
+    float: left;
+    display: block;
+    cursor: pointer;
+    padding-top: 3px;
+    background-color: #FFF;
+}
+.layerManager_v_c_item_img{
+	width:230px;
+	height: 118px;
+	float:left;
+}
+.layerManager_v_c_item_img img{
+    width: 230px;
+}
+.layerManager-v-dataContainer{
+    position: absolute;
+}
+.layerManager-hoverSelection{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.layerManager-hoverSelection:hover{
+    width: 100%;
+    height: 100%;
+    background-image: url(bg_b_20.png);
+}
+.layerManager_v_c_item_label{
+	padding-top: 2px;
+    width:230px;
+	height: 16px;
+	float:left;
+	text-align: center;
+	background-color: #FFF;
+}
+.layerManager_v_c_slider{
+	width: 230px;
+	position: absolute;
+	left: 0px;
+}
+/* Collapsed tools ----------------------------------------*/
+.layerManager-collapsedTools{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 227px;
+	height: 28px;
+	overflow: hidden;
+}
+
+.layerManager-btnCollapse_c{
+	width: 15px;
+	height: 28px;
+	float: left;
+	cursor: pointer;
+}
+.layerManager-btnLayersConf_c{
+	width: 28px;
+	height: 28px;
+	float: left;
+	cursor: pointer;
+}
+.layerManager-btnLayers_c{
+	width: 28px;
+	height: 28px;
+	float: left;
+	cursor: pointer;
+	margin-top: 2px;
+}
+.layerManager_baseMapBox{
+	 cursor: pointer;
+    float: left;
+    height: 19px;
+    margin-left: 3px;
+    margin-top: 2px;
+    padding-left: 3px;
+    padding-top: 3px;
+    text-align: center;
+    width: 142px;
+}
+/*Colors --------------------------------------------------*/
+.layerManager-color-b-90{background-image: url(bg_b_90.png)}
+.layerManager-color-b-80{background-image: url(bg_b_80.png)}
+.layerManager-color-b-60{background-image: url(bg_b_60.png)}
+.layerManager-color-b-40{background-image: url(bg_b_40.png)}
+.layerManager-color-b-20{background-image: url(bg_b_20.png)}
+
+/* Styles ----------------------------------------------- */
+.layerManager-closed-h{ height: 0px;}
+.layerManager-hidde{display: none;}
+.layerManager-border{
+    border: solid 1px #DDD;
+}
+.layerManager-inputText{
+    background-color: transparent;
+    border: 1px solid #DDDDDD;
+    color: #555555;
+    font-size: 120%;
+    height: 23px;
+    overflow: hidden;
+    position: absolute;
+    right: 45px;
+    top: 5px;
+    width: 328px;
+    padding-left: 3px;
+}
+.layerManager-inset-focus:focus{
+    -moz-box-shadow: inset 1px 1px 2px 0px #999;
+    -webkit-box-shadow: inset 1px 1px 2px 0px #999;
+    box-shadow: inset 1px 1px 2px 0px #999;
+}
+.layerManager-shadow{
+   -moz-box-shadow:    1px 1px 2px 0px #555;
+   -webkit-box-shadow: 1px 1px 2px 0px #555;
+   box-shadow:         1px 1px 2px 0px #555;
+   
+   /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#555555')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#555555');
+   
+}
+
+.layerManager-shadow-n{
+   -moz-box-shadow:    0 -1px 4px 0 #999999;
+   -webkit-box-shadow: 0 -1px 4px 0 #999999;
+   box-shadow:         0 -1px 4px 0 #999999;
+   
+   /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=270, Color='#999999')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=270, Color='#999999');
+   
+}
+
+.layerManager-shadow-inset{
+   -moz-box-shadow: inset 1px 1px 2px 0px #999;
+   -webkit-box-shadow: inset 1px 1px 2px 0px #999;
+   box-shadow: inset 1px 1px 2px 0px #999;
+}
+.layerManager-transition{
+    webkit-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -o-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -moz-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -ms-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -kthtml-transition: all 0.4s lcubic-bezier(0.52,0,0.48,1);
+    transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+}
+.layerManager-box-sizing{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}

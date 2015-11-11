@@ -1,0 +1,5 @@
+//////////////////////////////////////////////
+// Mapa Digital de México v6.0  //
+//          //
+//////////////////////////////////////////////
+eval((function(x){var d="";var p=0;while(p<x.length){if(x.charAt(p)!="`")d+=x.charAt(p++);else{var l=x.charCodeAt(p+3)-28;if(l>4)d+=d.substr(d.length-x.charCodeAt(p+1)*96-x.charCodeAt(p+2)+3104-l,l);else d+="`";p+=4}}return d})("define([\"OpenLayers\", \"timer\"], function (OL, ` 2!) {var configure = {server:\"http://demo.opengeo.org/geo` =\"/wps\", process:null};var getGeometry =`!,'`!'#wktf = \"LINESTRING(117 22,112 18,118 13, 115 8)\"` o!wktg = \"POLYGON((110 20,120 20` \"!10,110 10` \"!20),(` l!7` k\"` q#6`! \"5`!'\"7)` y#F = [new OL.Feature.Vector(OL.`\"'$.fromWKT(wktf))]` V!G = ` -3g);return {f` o\"s:F, g` D#:G};`#-\"client` &!applyC`$+#a`#5!`#6+` G\" = `!i#WPSC` .!(`$V#s:{mdm6:`$o%.` 2\"}})`!)#runP`$R\"`$.0a = arguments;`!)\".execute` |$:mdm6`%4&a[0].` &#, input` .#` &\", suc` @&` &#`!G%getParam`!:1`#(#ies =`&1(()` W!p` Q${`!E$\"JTS:interse` f!\"`!J%{a:` e&.`$-$, b` +(`$8$}`!l&`!K&outputs) {map.base`)'!.add`%r#s` <$.result);}}`%@$`!g\"`\"O#init`\"A,`%-.();` V%{init:init, `$*#:`$b&,`#>&:`#I%};});"))

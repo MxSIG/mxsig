@@ -1,0 +1,35 @@
+/*Sprites -------------------------------------------------*/
+.layerDisplay-sprite{
+   background-image: url(plantilla.png);
+    background-repeat: no-repeat;
+}
+.layerDisplay-iconText_a{background-position: 0px 0px;display: block;height: 16px;width: 16px;}
+.layerDisplay-iconText_d{background-position: 0px -15px;display: block;height: 16px;width: 16px;}
+
+.layerDisplay-iconZoom_a{background-position: -15px 0px;display: block;height: 16px;width: 16px;}
+.layerDisplay-iconZoom_d{background-position: -15px -15px;display: block;height: 16px;width: 16px;}
+
+.layerDisplay-iconEye_a{background-position: -30px 0px;display: block;height: 16px;width: 16px;}
+.layerDisplay-iconEye_d{background-position: -30px -15px;display: block;height: 16px;width: 16px;}
+
+.layerDisplay-iconClose2{background-position: -45px 0px;display: block;height: 16px;width: 16px;}
+.layerDisplay-iconClose2:hover{background-position: -45px -15px;display: block;height: 16px;width: 16px;}
+
+.layerDisplay-iconCircleBlank_a{background-position: -60px 0px;display: block;height: 16px;width: 16px; float: left;}
+.layerDisplay-iconCircleBlank_d{background-position: -60px -15px;display: block;height: 16px;width: 16px;}
+
+.layerDisplay-iconCircleFill_a{background-position: -75px 0px;display: block;height: 16px;width: 16px;float: left;}
+.layerDisplay-iconCircleFill_d{background-position: -75px -15px;display: block;height: 16px;width: 16px;}
+
+.layerDisplay-iconClear{background-position: -90px 0px;display: block;height: 16px;width: 16px;float: left;}
+.layerDisplay-iconClear:hover{background-position: -90px -15px;display: block;height: 16px;width: 16px;}
+
+.layerDisplay-iconMetadato_a{background-position: -105px 0px;display: block;height: 16px;width: 16px;float: left;}
+.layerDisplay-iconMetadato_d:hover{background-position: -105px -15px;display: block;height: 16px;width: 16px;}
+
+.layerDisplay-iconClose{background-position: 0px -30px;display: block;height: 22px;width: 22px;}
+.layerDisplay-iconClose:hover{background-position: 0px -52px;display: block;height: 22px;width: 22px;}
+
+.layerDisplay-iconClose-s{background-position: 0px -74px;display: block;height: 15px;width: 15px;}
+.layerDisplay-iconClose-s:hover{background-position: 0px -89px;display: block;height: 15px;width: 15px;}
+

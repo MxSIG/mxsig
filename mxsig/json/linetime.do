@@ -1,0 +1,1 @@
+{"response":{"success":true,"message":null},"data":{"value":{"cusv5":{"data":{"1985":["c420"],"1993":["c421"],"2002":["c789"],"2007":["cusv"],"2011":["cusv5"]}}}}}

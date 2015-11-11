@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//ES"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es">
+<link rel="stylesheet" href="js/frameworks/jquery/css/custom-theme/jquery-ui-1.10.3.custom.css" />
+<link rel="stylesheet" href="js/frameworks/Openlayers/theme/default/style.css" />
+
+<script src="js/frameworks/jquery/js/jquery-1.9.1.js"></script>
+<script src="js/frameworks/jquery/js/jquery-ui-1.10.3.custom.js"></script>
+<script src="js/frameworks/jquery/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script src="js/frameworks/amplify/amplify.js"></script>
+<script src="js/frameworks/upload/js/jquery.iframe-transport.js"></script>
+<script src="js/frameworks/upload/js/jquery.fileupload.js"></script>
+
+<link rel="stylesheet" href="css/main.css" />
+<script data-main="js/main.js" src="js/frameworks/require/require.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.12&key=AIzaSyDLSfypF5ragJoM1-NR7tBest1CRyqWz38&sensor=false"></script>
+<!---<script src="http://maps.google.com/maps/api/js?v=3&amp;sensor=false"></script>--->
+
+<!--<script src="js/frameworks/upload/js/jquery.ui.widget.js"></script>-->
+
+
+<script src="projects/init.js"></script>
+<head>
+    <title>Mapa Digital de México V6</title>
+</head>
+
+<body>
+<div id="main">
+    <div id="header"></div>
+    <div id="content">
+        <div id="panel-left"></div>
+        <div id="middle">
+            <div id="panel-center">
+                <div id="map"></div>
+            </div>
+            <div id="panel-bottom"></div>
+        </div>
+        <div id="panel-right"></div>
+    </div>
+</div>
+<input id="fileupload" style="position:absolute;z-index: 50000;left:100px;top:300px" type="file" name="files[]" data-url="js/frameworks/upload/server/php/" multiple>
+</body>
+</html>

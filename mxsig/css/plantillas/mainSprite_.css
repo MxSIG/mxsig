@@ -1,0 +1,61 @@
+/*Sprites -------------------------------------------------*/
+.mdm6-sprite{
+   background-image: url(featureIcon.png);
+    background-repeat: no-repeat;
+}
+
+/*buildings*/
+.mdm6-icon_house_a{background-position: 0px 0px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_house_d{background-position: 0px -30px;display: block;height: 30px;width: 30px;}
+
+.mdm6-icon_apartment_a{background-position: -30px 0px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_apartment_d{background-position: -30px -30px;display: block;height: 30px;width: 30px;}
+
+.mdm6-icon_govBuilding_a{background-position: -60px 0px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_govBuilding_d{background-position: -60px -30px;display: block;height: 30px;width: 30px;}
+
+.mdm6-icon_school_a{background-position: -90px 0px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_school_d{background-position: -90px -30px;display: block;height: 30px;width: 30px;}
+
+/*Roads*/
+.mdm6-icon_road_a{background-position: 0px -60px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_road_d{background-position: 0px -90px;display: block;height: 30px;width: 30px;}
+
+/*Urban marks*/
+.mdm6-icon_corner_a{background-position: 0px -120px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_corner_d{background-position: 0px -150px;display: block;height: 30px;width: 30px;}
+
+.mdm6-icon_blocks_a{background-position: -30px -120px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_blocks_d{background-position: -30px -150px;display: block;height: 30px;width: 30px;}
+
+.mdm6-icon_address_a{background-position: -60px -120px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_address_d{background-position: -60px -150px;display: block;height: 30px;width: 30px;}
+
+/*transport*/
+.mdm6-icon_airplane_a{background-position: -0px -180px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_airplane_d{background-position: -0px -210px;display: block;height: 30px;width: 30px;}
+
+.mdm6-icon_bus_a{background-position: -30px -180px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_bus_d{background-position: -30px -210px;display: block;height: 30px;width: 30px;}
+
+/*land features*/
+
+.mdm6-icon_water_a{background-position: -0px -240px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_water_d{background-position: -0px -270px;display: block;height: 30px;width: 30px;}
+
+.mdm6-icon_river_a{background-position: -30px -240px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_river_d{background-position: -30px -270px;display: block;height: 30px;width: 30px;}
+
+.mdm6-icon_lake_a{background-position: -90px -240px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_lake_d{background-position: -90px -270px;display: block;height: 30px;width: 30px;}
+
+/*land types*/
+.mdm6-icon_isle_a{background-position: -0px -300px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_isle_d{background-position: -0px -330px;display: block;height: 30px;width: 30px;}
+
+/*special marks*/
+.mdm6-icon_star_a{background-position: -0px -360px;display: block;height: 30px;width: 30px;}
+.mdm6-icon_star_d{background-position: -0px -390px;display: block;height: 30px;width: 30px;}
+
+
+

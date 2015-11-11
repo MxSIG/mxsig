@@ -1,0 +1,158 @@
+.custom-baseMapMini{
+    position: absolute;
+	right:65px;
+	top:22px;
+	z-index:1900;
+	height:0px;
+}
+.custom-baseMapMini[enable=true][closed=false]{
+	z-index:2001;	
+}
+.custom-baseMapMini[closed=true]{
+	opacity:0.7;
+}
+
+
+/*sprites*/
+.baseMapMini-sprite{background-image: url(sprite.png);background-repeat: no-repeat;}
+
+/*----------------------*/
+.baseMapMini-shadow{
+   -moz-box-shadow:    1px 1px 2px 0px #555;
+   -webkit-box-shadow: 1px 1px 2px 0px #555;
+   box-shadow:         1px 1px 2px 0px #555;
+}
+
+.baseMapMini-shadow-inset{
+   -moz-box-shadow: inset 1px 1px 2px 0px #999;
+   -webkit-box-shadow: inset 1px 1px 2px 0px #999;
+   box-shadow: inset 1px 1px 2px 0px #999;
+}
+.baseMapMini-boxsize{
+   -moz-box-shadow:    1px 1px 2px 0px #555;
+   -webkit-box-shadow: 1px 1px 2px 0px #555;
+   box-shadow:         1px 1px 2px 0px #555;
+   
+   /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#555555')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#555555');
+}
+.baseMapMini-transition{
+    webkit-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -o-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -moz-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -ms-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -kthtml-transition: all 0.4s lcubic-bezier(0.52,0,0.48,1);
+    transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+}
+.baseMap-selection{
+	float:left;
+	padding:5px;
+	margin-right:2px;
+	background-color:#FFF;
+	
+	-moz-box-shadow:    1px 1px 2px 0px #555;
+    -webkit-box-shadow: 1px 1px 2px 0px #555;
+    box-shadow:         1px 1px 2px 0px #555;
+}
+.baseMap-selection *{
+	cursor:pointer;	
+}
+.baseMap-selection:hover{
+	background-color:#555;
+}
+.baseMap-mosaicItems{
+	float:left;
+	overflow-x:hidden;
+	width:0px;
+	
+	-moz-box-shadow:    1px 1px 2px 0px #555;
+    -webkit-box-shadow: 1px 1px 2px 0px #555;
+    box-shadow:         1px 1px 2px 0px #555;
+}
+/* Mosaic items */
+.baseMap-item-selected{
+ 	float:left;
+	padding:4px;
+	border: 1px solid #EEE;
+	background-color:DDD;
+	cursor:pointer;
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.baseMap-item-selected:hover{
+	background-color:#555;
+}
+.baseMap-img-selected{
+	width:225px;
+}
+.baseMap-img-selected-open{
+	width:225px !important;	
+}
+
+.baseMap-img-selected-closed{
+	width:112px !important;	
+}
+.baseMap-item-mosaic-selected{
+		
+}
+.baseMap-item-mosaic{
+	padding: 4px;
+	border: 1px solid #DDD;
+	background-color:#FFF;
+	width: 112px;
+	float:left;
+	cursor:pointer;
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.baseMap-item-mosaic:hover{
+	background-color:#555;
+}
+.baseMap-item-img{
+	width:100%;
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.custom-baseMapMini[enable=true][closed=false] .baseMap-selectionLabel{
+	display:block !important;	
+}
+.baseMap-selectionLabel{
+	position: absolute;
+	left: 4px;
+	top: 128px;
+	width: 221px;
+	padding: 2px;
+	background-color: #FFF;
+	text-align: center;
+	border: 1px solid #EEE;
+	font-family: arial;
+	opacity:0.7;
+	display:none;
+	
+	-moz-box-shadow:    1px 1px 2px 0px #555;
+    -webkit-box-shadow: 1px 1px 2px 0px #555;
+    box-shadow:         1px 1px 2px 0px #555;
+}
+.custom-baseMapMini[enable=true][closed=false] .baseMap-selection-tool{
+	display:block !important;	
+}
+.baseMap-selection-tool{
+	display:none;
+	
+	position:absolute;
+	left:10px;
+	top:35px;
+	width: 25px;
+	height: 47px;
+	background-image:url(plantilla.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+}

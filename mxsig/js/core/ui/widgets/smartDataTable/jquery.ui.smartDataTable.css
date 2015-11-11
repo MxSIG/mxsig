@@ -1,0 +1,15 @@
+.smartTableDefault {cursor:pointer;padding: 5px;float: left;min-height: 30px;width: 92%; margin-left: 5px;margin-top: 5px; background-color: #FFF; border: 1px solid #DDD;}
+.smartTableDefault:hover{background-color: #EEE;}
+.smartTableDefault div .smartTableField{clear: both;width: 100%;width: auto;height: auto; font-size: 85%;max-width:290px;}
+.smartTableDefault div .smartTableField .smartTableLabel{text-wrap: suppress;display: inline;float: left; font-weight: bold;}
+.smartTableDefault div .smartTableField .smartTableValue{text-wrap: suppress;float: left; margin-left: 5px; max-width: 80%;max-height: 30px;overflow: hidden;}
+.smartTableFields{float: left;overflow: hidden; width: 100%}
+.smartTableBtnArea{display: block; position: absolute;right:30px;width:20px;}
+.smartTableUIButton{width: 30px;height: 30px;margin-top: 3px;}
+.paginationArrow{width: 15px;}
+.comboSmartTable{float: right;margin-right: 20px;border: none; font-family: arial;background-color: #EEE;}
+.comboSmartTable option{background-color: #FFF;}
+.comboSmartTable option:first-of-type{background-color:#EEE;font-style: italic;}
+.smartTableHeader{font-size:74%;}
+.smartTablePaginationItem{cursor: pointer;font-size: 125%;float: left;height: 16px;border:1px solid #DDD;padding: 2px;max-width: 23px;}
+.smartbtn{cursor: pointer;border: 1px solid #DDD; background-color: #FFF;}.smartbtn:hover{border: 1px solid #DDD; background-color: #EEE;}

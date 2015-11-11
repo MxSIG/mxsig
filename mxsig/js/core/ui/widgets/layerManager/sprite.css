@@ -1,0 +1,41 @@
+/*Sprites -------------------------------------------------*/
+.layerManager-sprite{
+   background-image: url(plantilla.png);
+    background-repeat: no-repeat;
+}
+/*Big*/
+.layerManager-iconLayers{background-position: -35px -0px;width: 35px;height: 35px;display:block;}
+.layerManager-iconLayers:hover{background-position: -35px -35px;width: 35px;height: 35px;display:block;}
+
+/*Medium*/
+.layerManager-iconTime{background-position: 0px -70px;width: 26px;height: 26px;display:block;}
+.layerManager-iconTime:hover{background-position: 0px -95px;width: 26px;height: 26px;display:block;}
+
+.layerManager-iconGears{background-position: -150px -70px;width: 26px;height: 26px;display:block;}
+.layerManager-iconGears:hover{background-position: -150px -95px;width: 26px;height: 26px;display:block;}
+
+.layerManager-icon-arrow-w{background-position: -28px -94px;width: 26px;height: 26px;display:block;}
+.layerManager-icon-arrow-w:hover{background-position: -28px -69px;width: 26px;height: 26px;display:block;}
+
+.layerManager-icon-arrow-e{background-position: -49px -94px;width: 26px;height: 26px;display:block;}
+.layerManager-icon-arrow-e:hover{background-position: -49px -69px;width: 26px;height: 26px;display:block;}
+
+.layerManager-icon-arrow-n{background-position: -75px -94px;width: 26px;height: 26px;display:block;}
+.layerManager-icon-arrow-n:hover{background-position: -75px -69px;width: 26px;height: 26px;display:block;}
+
+.layerManager-icon-arrow-s{background-position: -100px -94px;width: 26px;height: 26px;display:block;}
+.layerManager-icon-arrow-s:hover{background-position: -100px -69px;width: 26px;height: 26px;display:block;}
+
+.layerManager-icon-arrow-nd{background-position: -49px -94px;width: 26px;height: 26px;display:block;}
+.layerManager-icon-arrow-nd:hover{background-position: -49px -69px;width: 26px;height: 26px;display:block;}
+
+.layerManager-iconLayers-m{background-position: -200px -71px;display: block;height: 26px;width: 26px;}
+.layerManager-iconLayers-m:hover{background-position: -200px -97px;display: block;height: 26px;width: 26px;}
+
+
+/*Minis*/
+.layerManager-iconOptions{background-position: -65px -121px;width: 15px;height: 15px;display:block;}
+.layerManager-iconOptions:hover{background-position: -65px -138px;width: 15px;height: 15px;display:block;}
+
+.layerManager-iconCollapse{background-position: -81px -122px;width: 15px;height: 15px;display:block;}
+.layerManager-iconCollapse:hover{background-position: -81px -138px;width: 15px;height: 15px;display:block;}

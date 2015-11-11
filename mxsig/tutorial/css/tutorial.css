@@ -1,0 +1,435 @@
+@font-face {
+  font-family: 'customFont';
+  src: url('../fonts/GloriaHallelujah.ttf');
+}
+
+.TutorialMDM6{
+	position: absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	z-index: 50000;
+	font-family: customFont;
+	color:white;
+}
+
+.TutorialMDM6 .overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #7B7979;
+	opacity: 0.70;
+	filter: Alpha(Opacity=70);
+}
+
+.TutorialMDM6 .content{
+	position: absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+}
+
+/*tutorial center*/
+
+.Tutorial-center{
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top:270px;
+	z-index: 1000;
+}
+.Tutorial-center .iconMouse{
+	position: absolute;
+	top: 21px;
+	right: 28px;
+}
+
+.Tutorial-center .iconHand{
+	position: absolute;
+	top: 2px;
+	left: -15px;
+}
+.Tutorial-center .fontsMouse{
+	left: 139px;
+	top: -11px;
+	position:absolute;
+	
+}
+.Tutorial-center .fontsMouse .title{
+	position:absolute;
+	top:0px;
+	font-size: 200%;
+	font-weight:bold;
+	-webkit-transform: rotate(356deg);
+	-moz-transform: rotate(356deg);
+	-o-transform: rotate(356deg);
+	writing-mode: lr-tb;
+}
+.Tutorial-center .fontsMouse .options{
+	position: absolute;
+	top:115px;
+	font-size: 200%;
+	font-weight:bold;
+	-webkit-transform: rotate(9deg);
+	-moz-transform: rotate(9deg);
+	-o-transform: rotate(9deg);
+	writing-mode: lr-tb;
+}
+
+.Tutorial-center .fontsHand{
+	left: -72px;
+	top: -38px;
+	position:absolute;
+}
+.Tutorial-center .fontsHand .title{
+	position:absolute;
+	top:0px;
+	left:120px;
+	font-size: 200%;
+	font-weight:bold;
+}
+.Tutorial-center .fontsHand .options{
+	position: absolute;
+	top:115px;
+	font-size: 200%;
+	font-weight:bold;
+}
+
+/*close tutorial*/
+.Tutorial-close{
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top:-223px;
+	z-index: 1000;
+	font-size: 300%;
+	cursor: pointer;
+	text-decoration: underline;
+	color:black;
+}
+/**Herramientas*/
+
+.Tutorial-panel-tools{
+	position:absolute;
+	top:149px;
+	left:20px;
+	width:382px;
+	background:transparent;
+	height:200px;
+}
+.Tutorial-panel-tools .vSeparator{
+	position:absolute;top:0px;width: 6px;height: 46px;
+}
+.Tutorial-panel-tools .vSeparatorMidle{
+	position:absolute;top:52px;width: 6px;height: 63px;
+}
+
+.Tutorial-panel-tools .hSeparator{
+	position:absolute;left:40px;top:46px;width: 300px;height: 6px;
+}
+
+.Tutorial-panel-tools .fonts{
+	left: 40px;
+	top: 112px;
+	position:absolute;
+}
+.Tutorial-panel-tools .fonts .title{
+	font-size: 220%;
+	font-weight:bold;
+	-webkit-transform: rotate(356deg);
+	-moz-transform: rotate(356deg);
+	-o-transform: rotate(356deg);
+	writing-mode: lr-tb;
+}
+.Tutorial-panel-tools .fonts .options{
+	font-size: 160%;
+	margin-left:37px;
+	line-height:1.3;
+	-webkit-transform: rotate(363deg);
+	-moz-transform: rotate(363deg);
+	-o-transform: rotate(363deg);
+}
+
+/*Busqueda*/
+
+.Tutorial-search{
+	position:absolute;
+	top:65px;
+	left:250px;
+	width:370px;
+	background:transparent;
+	height:82px;
+}
+.Tutorial-search .hSeparator{
+	position:absolute;left:0px;top:15px;width: 160px;height: 6px;
+}
+.Tutorial-search .fonts{
+	left: 175px;
+	top: -10px;
+	position:absolute;
+	
+}
+.Tutorial-search .fonts .title{
+	font-size: 220%;
+	font-weight:bold;
+	-webkit-transform: rotate(352deg);
+	-moz-transform: rotate(352deg);
+	-o-transform: rotate(352deg);
+	writing-mode: lr-tb;
+	line-height:1.3
+}
+
+
+/*temas*/
+
+.thems{
+	position: absolute;bottom:0px;left: 0px;
+	height:300px;
+	background: transparent;
+	left:32px;
+	right:233px;
+}
+
+.thems .vSeparator{
+	position:absolute;bottom:10px;width: 6px;height: 48px;
+}
+
+.thems .hSeparator{
+	position:absolute;left:0px;bottom:59px;width: 100%;height: 6px;
+}
+
+.thems .vSeparatorMidle{
+	position:absolute;bottom:62px;width: 6px;height: 63px;
+}
+.thems .fonts{
+	left: 88px;
+	bottom: 120px;
+	position:absolute;
+}
+.thems .fonts .title{
+	font-size: 220%;
+	font-weight:bold;
+	-webkit-transform: rotate(350deg);
+	-moz-transform: rotate(350deg);
+	-o-transform: rotate(350deg);
+}
+
+/*map reference*/
+
+.mapReference{
+	position: absolute;
+	bottom:11px;
+	height:120px;
+	background: transparent;
+	width:205px;
+	right:219px;
+}
+
+.mapReference .vSeparator{
+	position:absolute;bottom:10px;width: 6px;height: 93%;
+}
+
+.mapReference .hSeparator{
+	position:absolute;right:10px;bottom:95%;width: 50px;height: 6px;
+}
+
+.mapReference .fonts{
+	right: 68px;
+	bottom: 82px;
+	position:absolute;
+}
+.mapReference .fonts .title{
+	font-size: 160%;
+	font-weight:bold;
+	-webkit-transform: rotate(357deg);
+	-moz-transform: rotate(357deg);
+	-o-transform: rotate(357deg);
+	line-height:1.3;
+}
+/*layers*/
+
+.addLayers{
+	position: absolute;
+	bottom:11px;
+	height:200px;
+	background: transparent;
+	width:231px;
+	right:196px;
+}
+
+.addLayers .vSeparator{
+	position:absolute;bottom:10px;width: 6px;height: 93%;
+}
+
+.addLayers .hSeparator{
+	position:absolute;right:10px;bottom:95%;width: 50px;height: 6px;
+}
+
+.addLayers .fonts{
+	right: 65px;
+	bottom: 157px;
+	position:absolute;
+}
+.addLayers .fonts .title{
+	font-size: 160%;
+	font-weight:bold;
+	-webkit-transform: rotate(353deg);
+	-moz-transform: rotate(353deg);
+	-o-transform: rotate(353deg);
+	line-height:1.6;
+}
+
+/*transparency*/
+
+.transparency{
+	position: absolute;
+	bottom:11px;
+	height:270px;
+	background: transparent;
+	width:209px;
+	right:169px;
+}
+
+.transparency .vSeparator{
+	position:absolute;bottom:10px;width: 6px;height: 93%;
+}
+
+.transparency .hSeparator{
+	position:absolute;right:10px;bottom:95%;width: 50px;height: 6px;
+}
+
+.transparency .fonts{
+	right: 75px;
+	bottom: 229px;
+	position:absolute;
+}
+.transparency .fonts .title{
+	font-size: 160%;
+	font-weight:bold;
+	-webkit-transform: rotate(356deg);
+	-moz-transform: rotate(356deg);
+	-o-transform: rotate(356deg);
+	line-height:1.3;
+}
+/*other maps*/
+
+.otherMaps{
+	position: absolute;
+	bottom:11px;
+	height:355px;
+	background: transparent;
+	width:172px;
+	right:78px;
+}
+
+.otherMaps .vSeparator{
+	position:absolute;bottom:10px;width: 6px;height: 93%;
+}
+
+.otherMaps .hSeparator{
+	position:absolute;right:10px;bottom:95%;width: 50px;height: 6px;
+}
+
+.otherMaps .fonts{
+	right: 71px;
+	bottom: 309px;
+	position:absolute;
+}
+.otherMaps .fonts .title{
+	font-size: 160%;
+	font-weight:bold;
+	-webkit-transform: rotate(350deg);
+	-moz-transform: rotate(350deg);
+	-o-transform: rotate(350deg);
+	line-height:1.3;
+}
+
+/*control zoom*/
+
+.Tutorial-controlZoom{
+	position:absolute;
+	top:80px;
+	right:42px;
+	width:350px;
+	background:transparent;
+	height:67px;
+}
+
+.Tutorial-controlZoom .vSeparator{
+	position:absolute;bottom:0px;top:0px;width: 6px;
+}
+.Tutorial-controlZoom .hSeparator{
+	position:absolute;right:0px;width: 30px;height: 6px;
+}
+.Tutorial-controlZoom .fonts{
+	right: 76px;
+	top: 9px;
+	position:absolute;
+}
+.Tutorial-controlZoom .fonts .title{
+	font-size: 220%;
+	font-weight:bold;
+	-webkit-transform: rotate(6deg);
+	-moz-transform: rotate(6deg);
+	-o-transform: rotate(6deg);
+	writing-mode: lr-tb;
+}
+.Tutorial-controlZoom .fonts .options{
+	font-size: 220%;
+	font-weight:bold;
+	-webkit-transform: rotate(356deg);
+	-moz-transform: rotate(356deg);
+	-o-transform: rotate(356deg);
+	writing-mode: lr-tb;
+}
+
+
+
+.Tutorial_template{display:block;background-image:url(../img/tutorial.png);overflow:hidden;}
+
+.line-horizontal{
+	display:block;background-image:url(../img/line-horizontal.png);overflow:hidden;background-repeat: repeat-x;
+}
+.line-vertical{
+	display:block;background-image:url(../img/line-vertical.png);overflow:hidden;background-repeat: repeat-y;
+}
+.mouse{
+	background-position:-208px -27px;
+	background-repeat: no-repeat;
+	width:130px;
+	height: 218px;
+}
+.hand{
+	background-position:-4px -28px;
+	background-repeat: no-repeat;
+	width:185px;
+	height: 218px;
+}
+.scroll{
+	background-position:-346px -84px;
+	background-repeat: no-repeat;
+	width:49px;
+	height: 88px;
+}
+
+.drag{
+	background-position:-348px -3px;
+	background-repeat: no-repeat;
+	width:60px;
+	height: 71px;
+}
+
+.zoomBottons{
+	background-position:-348px -184px;
+	background-repeat: no-repeat;
+	width:60px;
+	height: 84px;
+}

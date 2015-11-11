@@ -1,0 +1,9 @@
+.input-text{
+    border: none; background-color: transparent;
+    color: #555;
+    font-size: 120%;
+    overflow: hidden;
+    height: 35px;
+    border: solid 1px #DDD;
+    background-color: #FFF;
+}

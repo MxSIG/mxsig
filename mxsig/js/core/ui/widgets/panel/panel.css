@@ -1,0 +1,192 @@
+.custom-panel{ z-index: 5000;box-shadow: 0 0 6px 0 #555555;position:absolute;background: white;}
+.custom-panel-title{
+    position: absolute;top:0px;left:0px;right:0px;height:30px;background: black;color:white;text-align:center;
+}
+.custom-panel-container-external{
+    position: absolute;top:0px;left:0px;right:0px;bottom:0px;overflow:auto;
+}
+.custom-panel-container-external .item{
+    box-shadow: 0 0 6px 0 #555555;overflow: auto;
+}
+
+.custom-panel-container-internal{
+    position: absolute;top:5px;left:5px;right:5px;bottom:5px;overflow:auto;background:white;
+}
+.custom-panel-container{
+    position: absolute;top:5px;left:5px;right:5px;bottom:5px;overflow:auto;
+}
+
+.custom-panel-container .basic-section{position: absolute;top:0px;left:0px;right:0px;overflow:auto;}
+.basic-section-height{bottom:0px;}
+.basic-section-height-adapted{bottom:0px;/*bottom:275px*/}
+.custom-panel-container .advanced-section{position: absolute;top:0px;left:0px;right:0px;bottom:0px;overflow:auto;background: white;}
+
+/*plegs*/
+.custom-panel-pleg-left{
+    position: absolute;top:0px;left:0px;width:25px;height:100%;background:white;
+    z-index: 5000;box-shadow: 0 0 6px 0 #555555;
+}
+.custom-panel-pleg-right{
+   position: absolute;top:0px;right:0px;width:25px;height:100%;background:white;
+   z-index: 5000;box-shadow: 0 0 6px 0 #555555;
+}
+.custom-panel-pleg-bottom{
+   position: absolute;bottom:0px;left:0px;right: 0px;height:30px;background:white;
+   z-index: 5000;box-shadow: 0 0 6px 0 #555555;
+}
+
+.custom-panel-pleg-bottom .container:hover{
+   background:#EEEEEE; font-weight:bold;
+   border:1px solid #7e7e7e;
+   border-radius:4px;
+}
+
+
+.custom-panel-pleg-bottom .container{
+   position:absolute;top:3px;bottom:3px;left:7px;right:7px;border:1px solid #DDDDDD;border-radius:4px;
+}
+
+.custom-panel-pleg-bottom .container .title{
+   position:absolute;right:0px;left:30px;height:100%;
+}
+
+.custom-panel-pleg-bottom .container .title div{
+   margin-top:3px;font-size:110%;
+}
+
+.custom-panel-pleg-bottom .container .icon{
+   position:absolute;left:0px;width:30px;/*background:blue;*/height:100%;
+}
+/*Css para escuelas*/
+.custom-panel-header{
+    background:#E8E8E8;color:black;text-align:center;height:20px;
+    border-bottom:1px solid #BFBFBF;
+}
+.contentPanel{
+    padding-top:1px;font-size:12px;font-weight:bold;
+}
+.school-container{border: 1px solid #BFBFBF;}
+.school-advanced-container{border: 1px solid #BFBFBF;position:absolute;top:0px;left: 0px;right:0px;bottom:0px}
+.school-advanced-container .header{
+    box-shadow: 0 0 6px 0 #555555;
+    height:50px;color:black;text-align:center;
+    border-bottom:1px solid #BFBFBF;
+    background:#F8F8F8;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.school-advanced-container .header .close{
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+.school-advanced-container .multipleOptions{
+    position:absolute;
+    top:61px;left: 0px;right:0px;bottom:0px;
+}
+.advanced-option{width:31%;float:right}
+.advanced-option-selected{width:80%;background:#13679F;height:5px;}
+
+.school-sostenimiento{width:100%;height:30px;position:relative;}
+.school-sostenimiento .container{position:absolute;top:5px;left:10px;right:10px;bottom:5px;font-size:80%}
+.school-sostenimiento .container .public{width:47%;float:left;position:aboslute;}
+.school-sostenimiento .container .private{width:47%;float:right}
+
+.school-computo{width:100%;height:30px;position:relative;}
+.school-computo .container{position:absolute;top:5px;left:10px;right:10px;bottom:5px;font-size:80%}
+.school-computo .container .lab{width:47%;float:left;position:aboslute;}
+.school-computo .container .internet{width:47%;float:right}
+
+.school-lengua{width:100%;height:30px;position:relative;}
+.school-lengua .container{position:absolute;top:5px;left:10px;right:10px;bottom:5px;font-size:80%}
+.school-lengua .container .lengua{width:100%;float:left;position:aboslute;}
+
+.school-option-main{position:relative;float:left;height:77px;width:50%;}/*cambio  height:90px*/
+.school-option{position: absolute; left: 5px; right: 5px; bottom: 5px; top: 5px; background: white;}
+.school-option .container{position:absolute;top:3px;left:3px;bottom:3px;right:3px;}
+.school-option .icon{width: 100%; background: #F8F8F8; height: 40px;}/*cambio height: 52px;*/
+.school-option .label{position:aboslute;width:100%;height:20px;background:#E8E8E8;text-align:center;}
+.school-option .check{position:absolute;left:5px}
+
+.school-option-border{border: 1px solid #DDDDDD;}
+.school-option-border:hover{border: 1px solid #BFBFBF; box-shadow: 0 0 6px 0 #555555}
+
+.school-option-border:hover .label{background:#CDCDCD;}
+.more-options{}
+
+/*iconos*/
+.school_template{display:block;background-image:url(img/icons2.png);overflow:hidden; background-repeat:no-repeat;}
+.big-icon{width:46px; height:40px;}/*.big-icon{width:59px; height:52px;}*/
+.small-icon{width:32px; height:32px;}
+/*
+.preescolar{background-position:-69px 1px}
+.primaria{background-position:-67px -96px}
+.secundaria{background-position:-69px -373px}
+.usaer{background-position:-73px -147px;}
+.cam{background-position:-70px -423px;}
+.biblioteca{background-position:-69px -203px}
+.centro{background-position:-67px -259px}
+.oficina{background-position:-67px -320px}
+.bodega{background-position:-70px -48px;}
+*/
+.preescolar{background-position:-277px 1px}
+.primaria{background-position:-274px -77px}
+.secundaria{background-position:-273px -291px}
+.usaer{background-position:-277px -115px}
+.cam{background-position:-274px -330px}
+.biblioteca{background-position:-273px -158px}
+.centro{background-position:-274px -203px}
+.oficina{background-position:-272px -248px}
+.bodega{background-position:-277px -40px}
+
+.inmueble{background-position:-179px -77px}
+.profesor{background-position:-178px -38px}
+.alumno{background-position:-180px -3px}
+
+.advanced-option:hover .inmueble{background-position:-143px -77px}
+.advanced-option:hover .profesor{background-position:-139px -38px}
+.advanced-option:hover .alumno{background-position:-144px -3px;}
+
+/*
+.school-option:hover .preescolar{background-position:-1px 1px}
+.school-option:hover .primaria{background-position:-2px -96px}
+.school-option:hover .secundaria{background-position:-1px -373px}
+.school-option:hover .usaer{background-position:-6px -147px;}
+.school-option:hover .cam{background-position:-5px -423px}
+.school-option:hover .centro{background-position:-1px -259px}
+.school-option:hover .oficina{background-position:-1px -320px}
+.school-option:hover .biblioteca{background-position:-5px -203px}
+.school-option:hover .bodega{background-position:-1px -47px;}
+*/
+
+.school-option:hover .preescolar{background-position:-229px 1px}
+.school-option:hover .primaria{background-position:-227px -77px}
+.school-option:hover .secundaria{background-position:-223px -291px}
+.school-option:hover .usaer{background-position:-230px -115px}
+.school-option:hover .cam{background-position:-226px -330px}
+.school-option:hover .centro{background-position:-225px -203px}
+.school-option:hover .oficina{background-position:-226px -248px}
+.school-option:hover .biblioteca{background-position:-225px -158px}
+.school-option:hover .bodega{background-position:-226px -40px}
+#sec_inmueble,#sec_profesor,#sec_alumno{position:absolute;top: 5px;bottom:5px;left:0px;right:0px;overflow-y:auto;overflow-x:hidden;}
+
+.school-list-parent{width:100%;background:#CCCCCC;height:20px;font-size:120%}
+.school-list-parent .label{position:relative;left:10px}
+
+.school-list-section{width:100%;background:#E8E8E8;height:20px;font-size:120%}
+.school-list-section .label{position:relative;left:20px;width:234px}
+
+.school-list-option {width:100%;height:20px;font-size:120%;border-bottom:1px solid  #DDDDDD;background:white;}
+.school-list-option-percent{width:100%;height:50px;font-size:120%;border-bottom:1px solid  #DDDDDD;background:white;}
+.school-list-option .label{position:relative;left:10px;width:234px}
+.school-list-option .label2{position:relative;left:20px;width:220px;}
+
+
+/*pantilla iconos panel*/
+
+.toggle_panels{padding:2px;position:absolute;bottom:40px;right:10px;z-index:50000;box-shadow: 1px 1px 2px 0 #555555;border: 1px solid #DDDDDD;background-color: #FFFFFF;}
+.panel_plantilla{display:block;background-image:url(img/plantilla.png);overflow:hidden; background-repeat:no-repeat;}
+.pleg{width:26px; height:26px;background-position:-89px -34px}
+.repleg{width:26px; height:26px;background-position:-120px -34px}
+.toggle_panels:hover .pleg{ width:26px; height:26px;background-position:-89px -1px}
+.toggle_panels:hover .repleg{width:26px; height:26px;background-position:-120px -1px}

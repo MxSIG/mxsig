@@ -1,0 +1,340 @@
+@import url('icons.css');
+.custom-layerDisplay{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 55px;
+    bottom: 29px;
+    padding: 0px;
+    font-family: arial;
+    min-width: 600px;
+    min-height: 350px;
+    z-index: 3001;
+    
+    /*overflow: hidden;*/
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.layerDisplay-hidde{
+    display: none;
+}
+.layerDisplay-bgmodal{
+   position: absolute;
+   left:0px;
+   top:0px;
+   bottom:0px;
+   right:0px;
+}
+.layerDisplay-overlay{
+    background-color: #999;
+    opacity: 0.3;
+    filter: Alpha(Opacity=30);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.layerDisplay-area-patch-bl{
+   position: absolute;
+   height: 28px;
+   left: 0px;
+   right: 213px;
+   bottom: -28px;
+}
+.layerDisplay-area-patch-br{
+   position: absolute;
+   height: 28px;
+   width: 154px;
+   right: 0px;
+   bottom: -28px;
+}
+
+.layerDisplay-area{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+.layerDisplay-container{
+   position: absolute;
+   top: 5px;
+   left: 15px;
+   right: 15px;
+   bottom: 5px;
+   background-color: #FFF;
+   border: 1px solid #DDD;
+}
+.layerDisplay-header{
+   position: absolute;
+   top:3px;
+   left: 5px;
+   right: 5px;
+   height: 34px;
+   background-color: #f8f8f8;
+   border:1px solid #EEE;
+   overflow: hidden;
+   min-width: 545px;
+}
+.layerDisplay-header label{
+   position: absolute;
+   left: 3px;
+   top: 8px;
+}
+.layerDisplay-header .btnlayerDisplay-close{
+   position: absolute;
+   right: 3px;
+   top: 6px;
+   cursor: pointer;
+}
+
+.layerDisplay-header .btnlayerDisplay-clear{
+   position: absolute;
+   left: 501px;
+   top: 10px;
+   cursor: pointer
+}
+
+.layerDisplay-header input{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    height: 25px;
+    left: 58px;
+    position: absolute;
+    top: 3px;
+    width: 440px;
+    padding-left:3px;
+    padding-right: 20px;
+}
+.layerDisplay-body{
+   position: absolute;
+   top:40px;
+   left: 5px;
+   right: 262px;
+   bottom: 35px;
+   background-color: #FFF;
+   border:1px solid #EEE;
+   padding: 3px;
+   overflow-y: auto;
+}
+.layerDisplay-body-selected{
+   background-color: #dbdbdb;
+    bottom: 4px;
+    overflow-y: auto;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    top: 40px;
+    width: 249px;
+}
+.layerDisplay-footer{
+   position: absolute;
+   height: 26px;
+   left: 5px;
+   right: 262px;
+   bottom: 4px;
+   background-color: #f8f8f8;
+   border:1px solid #EFEFEF;
+}
+.layerDisplay-footer label{
+	display:none;	
+}
+.layerDisplay-groupLayer{
+   float: left;
+   width: 260px;
+   padding: 4px;
+   margin: 3px;
+   margin-top: 22px;
+   border: 1px solid #EEE;
+}
+.layerDisplay-groupLayer > .layerDisplay-layer{margin-top: 10px;}
+.layerDisplay-groupLayer > .layerDisplay-layer ~ .layerDisplay-layer{margin-top: 4px;}
+.layerDisplay-title-container{
+    position: absolute;
+}
+.layerDisplay-title{
+    bottom: -3px;
+    left: 2px;
+    position: absolute;
+    width: 250px;
+    font-weight: bold;
+}
+.layerDisplay-groupLayer-name{
+    background-color: #FFFFFF;
+    bottom: 0;
+    left: 2px;
+    padding: 2px;
+    position: absolute;
+}
+.layerDisplay-layer{
+   width: 100%;
+   min-height: 18px;
+   clear: both;
+}
+.layerDisplay-layer label,.layerDisplay-layer button, .layerDisplay-layer input{
+   display: inline-block;
+   cursor: pointer;
+   float: left;
+}
+.layerDisplay-layer label{
+   width: 187px;
+   margin-top: 2px;
+}
+.layerDisplay-layer label:hover{
+   background-color: #efefef; 
+}
+.layerDisplay-layer button{
+   float: right;
+   margin-top: 1px;
+   margin-left: 3px;
+}
+/*Selected*/
+.layerDisplay-layerSelected{
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #BBBBBB;
+    border-top: 1px solid #DDDDDD;
+    clear: both;
+    float: left;
+    margin-top: 1px;
+    min-height: 18px;
+    padding: 1px 1px;
+    width: 100%;
+}
+.layerDisplay-layerSelected label,.layerDisplay-layerSelected button, .layerDisplay-layerSelected input{
+   display: inline-block;
+   /*cursor: pointer;*/
+   float: left;
+   margin-top: 9px;
+}
+.layerDisplay-layerSelected label{
+   display: block;
+    margin-top: 0px !important;
+    padding: 8px 0 12px;
+    width: 175px;
+}
+.layerDisplay-layerSelected label:hover{
+   /*background-color: #FFF; */
+}
+.layerDisplay-layerSelected button{
+   margin-top: 7px;
+   margin-left: 3px;
+}
+
+/*Selected 2*/
+.layerDisplay-body-selected-2{
+    background-color: #FFFFFF;
+    bottom: 31px;
+    min-height: 15px;
+    max-height: 350px;
+    overflow: hidden;
+    position: absolute;
+    right: 91px;
+    width: 258px;
+    padding: 5px;
+    border: 1px solid #DDD;
+    
+    z-index: 2050;
+}
+.layerDisplay-layerSelected-2{
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #BBBBBB;
+    border-top: 1px solid #DDDDDD;
+    clear: both;
+    float: left;
+    min-height: 18px;
+    padding: 1px 1px;
+    width: 99%;
+}
+.layerDisplay-layerSelected-2 label,.layerDisplay-layerSelected-2 button, .layerDisplay-layerSelected-2 input{
+   display: inline-block;
+   /*cursor: pointer;*/
+   float: left;
+}
+.layerDisplay-layerSelected-2 label{
+   display: block;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    width: 155px;
+}
+.layerDisplay-layerSelected-2 label:hover{
+   /*background-color: #FFF; */
+}
+.layerDisplay-layerSelected-2 button{
+   margin-left: 3px;
+}
+
+.layerDisplay-body-selected-2 .tool{
+    background-color: #FFFFFF;
+    float: left;
+    height: 55px;
+    width: 100%;
+}
+.layerDisplay-transparencyContainer{
+    float: left;
+    width: 253px;
+    border: 1px solid #DDD;
+    margin-top: 4px;
+    height: 31px;
+    padding-left: 2px;
+}
+.layerDisplay-transparencyText{
+    width: 100%;
+    height: 11px;
+    text-align: center;
+}
+.layerDisplay-transparencyContainer .layerDisplay-sprite{
+    margin-top: 3px;
+}
+.layerDisplay-transparencyContainer div:last-child{
+    margin-left: 8px;
+}
+.layerDisplay-transparencyContainer div:first-child{
+    margin-left: 2px;
+}
+.layerDisplay-sliderTransparency{
+    float: left;
+    margin-left: 3px;
+    margin-top: 5px;
+    width: 200px;
+    margin-left: 6px;
+}
+
+.layerDisplay-body-selected-2 .tool label{
+    float: left;
+}
+.layerDisplay-body-selected-2 .flatBbtnlayerDisplay-close-s{
+    float: right;
+    cursor: pointer;
+}
+.layerDisplay-body-selected-2 .container{
+    float: left;
+    max-height: 251px;
+    overflow-y: auto;
+    width: 255px;
+}
+/*Effects*/
+.shadow{
+    -moz-box-shadow:    1px 1px 2px 0px #ccc;
+   -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+   box-shadow:         1px 1px 2px 0px #ccc;
+}
+
+.rightBorder{border-right: 1px solid #DDD;}
+
+.layerDisplay-btnSpace{width: 17px; height: 17px; float: left;}
+.layerDisplay-flatBtn{border: 1px solid #DDD; background-color: #FFF;}
+.layerDisplay-transparentBtn{border:none; background-color: transparent;cursor: pointer;}
+.layerDisplay-flatBtn:hover{border: 1px solid #999; background-color: #EFEFEF;}
+.layerDisplay-iconText_a, .layerDisplay-iconZoom_a{border: 1px solid #BBB;}
+
+.layerDisplay-footer label{
+    float: right;
+    margin-right: 3px;
+    margin-top: 4px;
+}
+.layerDisplay-btnClear{
+    cursor: pointer;
+    float: left;
+}

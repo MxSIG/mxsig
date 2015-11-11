@@ -1,0 +1,5 @@
+//////////////////////////////////////////////
+// Mapa Digital de México v6.0  //
+//          //
+//////////////////////////////////////////////
+eval((function(x){var d="";var p=0;while(p<x.length){if(x.charAt(p)!="`")d+=x.charAt(p++);else{var l=x.charCodeAt(p+3)-28;if(l>4)d+=d.substr(d.length-x.charCodeAt(p+1)*96-x.charCodeAt(p+2)+3104-l,l);else d+="`";p+=4}}return d})("define(function () {` $%Timer() {var a = arguments[0];this.active = a[3] == un` m\"d ||` ,%null ? true :` 1!` X\"valua`!&!= a[2] ||` @!` 8\"tim` t\"0` 4!100` 2\"func` L$1` c#setT` I\"`\"!&totalTime) {` e(` /%;}` W\"clear` N)) {` 0!Timeout(` V%r)` M$`\"U!at`!%*`!\"$`\"n%`\")!` K#de` .Bfals` L%`!0! `#=\"` ,\"execu` R.var obj = this;if (obj` o#) {` )$` k\"!` l\") {obj`\"[\"();}` 7&= `#L#out`%Q*obj`#{$();}, ` M$);}};}var get`!O,return new`&0#`&#%);};` 7#{`%v\":get};});"))

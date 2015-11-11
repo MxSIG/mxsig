@@ -1,0 +1,74 @@
+.route-gray-text{
+    color: #999 !important;
+}
+.customAutocomplete-container{
+  position: absolute;
+}
+.customAutocomplete-container input{
+  border: 1px solid #DDD;
+  background-color: #FFF;
+  color: #444;
+}
+.customAutocomplete-spinner{
+  background-image: url('ajax-loader.gif');
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+.custom-customAutocomplete{
+  width: 300px;
+  height: 25px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  
+  float: left;
+}
+.customAutocomplete-results{
+ background-color: #FFF;
+ border: #DDD 1px solid;
+ position: absolute;
+ left: 0px;
+ overflow-x: hidden;
+ 
+ -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  
+  z-index: 1000;
+  font-size: 140%;
+}
+.customAutocomplete-bottom{
+ top: 24px;
+}
+
+.customAutocomplete-top{
+ bottom: 24px;
+}
+.customAutocomplete-hidde{
+  display: none;
+}
+.customAutocomplete-resultItem{
+  padding: 3px;
+  cursor: pointer;
+  float: left;
+  width: 100%;
+}
+.customAutocomplete-resultItem *{
+  cursor: pointer;
+}
+.customAutocomplete-resultItem label{
+  float: left;
+}
+.customAutocomplete-resultItem:hover{
+  background-color: #EEE;
+}
+.customAutocomplete-resultSelected{
+  background-color: #DDD;
+}
+/*.custom-customAutocomplete div{float: left; width: 100%}
+.custom-customAutocomplete div *{display: inline-block;float: left;}
+.custom-customAutocomplete div label{margin-left: 5px;width: 135px;}
+.custom-customAutocomplete-item{cursor: pointer;}
+.custom-customAutocomplete-item:hover{background-color: #EEE;}*/

@@ -1,0 +1,8 @@
+CACHE MANIFEST 
+#NETWORK: 
+#/checking.cgi
+CACHE:
+http://gaiamapas.inegi.org.mx/mdmCache/*
+http://gaiamapas1.inegi.org.mx/mdmCache/*
+http://gaiamapas2.inegi.org.mx/mdmCache/*
+http://gaiamapas3.inegi.org.mx/mdmCache/*

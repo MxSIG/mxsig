@@ -1,0 +1,330 @@
+@import url('htmlObjectsMod.css'); /*ajuste a objetos html*/
+@import url('effects.css');  /*efectos sombra, borde , etc*/
+@import url('header.css');  /*efectos sombra, borde , etc*/
+@import url('plantillas/mainSprite.css');  /*iconografia de elementos de datos*/
+
+html, body{     margin: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                font-size: 78%;
+                font-family: arial;
+            }
+#main, #map {  margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+}
+#header{position: absolute;left: 0px;right: 0px;top: 0px; height: 55px;}
+#content{ position: absolute; left: 0px; right: 0px; top: 55px; bottom: 0px;}
+            
+#panel-left{position: absolute; top: 0px; left: 0px; width: 0px;bottom: 0px;}
+#middle{position: absolute; top: 0px; left: 0px; right: 0px;bottom: 0px;}
+#panel-center{/*width: 100%; height: 100%;*/position:absolute;top:0px;left:0px;right:0px;bottom:0px;}
+#panel-bottom{position: absolute; height: 0px; left: 0px; right: 0px;bottom: 0px;}
+#panel-right{position: absolute; top: 0px; width: 0px; right: 0px;bottom: 0px;}
+
+
+#text {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    width: 512px;
+    z-index: 20000;
+    background-color: white;
+    padding: 0 0.5em 0.5em 0.5em;
+}
+
+/* Ajustes --------------------------------------------- */
+.box-sizing{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.hidden{display:none;visibility:hidden}
+
+.Popup{display:block;background-image:url(../img/popup.png);overflow:hidden}
+.popupProp{width:11px; height:11px; background-repeat:no-repeat;}
+.row_left{background-position:-23px 0px;}
+.row_top{background-position:-11px 0px;}
+.row_right{background-position:-37px 0px;}
+.row_bottom{background-position:0px 0px;}
+
+.PopupOL{position:absolute;z-index:20000;}
+.titleOL{font-weight:bold;font-size: 120%;}
+#PopupOL .close{position: absolute; right: 5px; top: 2px;}
+#PopupOL .dinamicPanel-searchLink{float:left;position:relative;bottom:-5px;color:#03508D;}
+.Georef-window{
+    position:absolute;z-index:50000;top:180px;left:350px
+}
+.Georef-container{
+        background-color: #FFFFFF;
+        float: left;
+        height: 180px;
+        overflow: hidden;
+        padding-right: 5px;
+        width: 350px;
+    }
+.inputItem{
+    background-color: transparent;
+    border: 1px solid #DDDDDD;
+    color: #555555;
+    font-size: 120%;
+    height: 23px;
+    overflow: hidden;
+    padding-left: 3px;
+    /*position: absolute;
+    right: 45px;
+    top: 4px;*/
+    width: 85%;
+    font-family: arial;
+}
+.textAreaItem{
+    background-color: transparent;
+    border: 1px solid #DDDDDD;
+    color: #555555;
+    font-size: 120%;
+    height: 23px;
+    overflow: hidden;
+    padding-left: 3px;
+    /*position: absolute;
+    right: 45px;
+    top: 4px;*/
+    width: 85%;
+}
+.pt30{
+    padding-top:35px;
+}
+.areaItem{
+    background-color: transparent;
+    border: 1px solid #DDDDDD;
+    color: #555555;
+    font-size: 120%;
+    height: 23px;
+    overflow: hidden;
+    padding-left: 3px;
+    width: 85%;
+    font-family:"arial"
+}
+
+.PopupElement{
+    box-shadow: 0px 0px 6px 0 #555555;
+}
+.PopupElement.top:before {
+            border-width: 0 20px 20px;
+            bottom: auto;
+            left: auto;
+            right: 40px;
+            top: -20px;
+}
+        
+        .PopupElement:before {
+            border-color: #DDDDDD transparent;/*5A8F00*/
+            border-style: solid;
+            border-width: 20px 20px 0; /*20px 20px 0;*/
+            bottom: -20px;
+            content: "";
+            display: block;
+            left: 40px;
+            position: absolute;
+            width: 0;
+        }
+        
+        .PopupElement.top:after {
+            border-width: 0 13px 13px;
+            bottom: auto;
+            left: auto;
+            right: 47px;
+            top: -13px;
+        }
+        
+        .PopupElement:after {
+            border-color: #FFFFFF transparent;
+            border-style: solid;
+            border-width: 13px 13px 0;
+            bottom: -13px;
+            content: "";
+            display: block;
+            left: 47px;
+            position: absolute;
+            width: 0;
+        }
+        .PopupElement {
+            background: none repeat scroll 0 0 #FFFFFF;
+            border: 2px solid #DDDDDD;
+            border-radius: 10px 10px 10px 10px;
+            color: #333333;
+            margin: 1em 0 3em;
+            padding: 15px;
+            position: relative;
+        }
+        
+        .PopupElement.left {
+            margin-left: 30px;
+        }
+        .PopupElement.left:before {
+            border-color: transparent #DDDDDD;
+            border-width: 15px 30px 15px 0;
+            bottom: auto;
+            left: -30px;
+            top: 10px;
+        }
+        
+        .PopupElement.left:after {
+            border-color: transparent #FFFFFF;
+            border-width: 9px 21px 9px 0;
+            bottom: auto;
+            left: -21px;
+            top: 16px;
+        }
+        
+        
+        .PopupElement.right {
+            margin-right: 30px;
+        }
+        .PopupElement.right:before {
+            border-color: transparent #DDDDDD;
+            border-width: 15px 0 15px 30px;
+            bottom: auto;
+            left: auto;
+            right: -30px;
+            top: 10px;
+        }
+.PopupElement.right:after {
+            border-color: transparent #FFFFFF;
+            border-width: 9px 0 9px 21px;
+            bottom: auto;
+            left: auto;
+            right: -21px;
+            top: 16px;
+}
+
+
+.Popup-square:before {
+    /*
+    border-color: transparent #C91F2C;
+    border-style: solid;
+    border-width: 0 0 140px 140px;
+    bottom: -140px;
+    content: "";
+    position: absolute;
+    right: 0;*/
+}
+.Popup-square:after {
+    border-color: transparent white;
+    border-style: solid;
+    border-width: 0 0 30px 20px;
+    bottom: -29px;
+    content: "";
+    left: 0;
+    position: absolute;
+}
+.Popup-square {
+    box-shadow: 0px 0px 6px 0 #555555;
+    background: none repeat scroll 0 0 white;
+    /*color: #FFFFFF;
+    font: 140px/200px Arial,sans-serif;
+    height: 200px;*/
+    margin: 50px 0 30px;
+    position: relative;
+    text-align: center;
+    /*width: 200px;*/
+    padding: 8px 5px 5px 5px;
+}
+
+.Modal-window{
+    box-shadow: 0px 0px 6px 0 #555555;
+    background: none repeat scroll 0 0 white;
+    margin: 0px 0 0px;/*margin: 50px 0 30px;*/
+    position: relative;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.itemLineTime{/*border: 1px solid #DDDDDD;*/padding:5px 2px 2px 2px;}
+.itemLineTime .lineTimeSlider{padding:5px 10px 5px 10px}
+.lineTimeSecLab{float:left}
+.lineTime_view{float:left; padding-left: 5px; padding-right: 5px;}
+.labelLineTime{padding-left:25px}
+.closeLineTime{position:absolute;top:2px;right:5px}
+#lineTime{position:absolute;z-index:3000;bottom:30px;left:15px;}
+#ModalLineTime{position:absolute;z-index:4000;left:12%;top:0px}
+
+
+.lineTime_icons{display:block;background-image:url(../img/lineTime.png);overflow:hidden;width:29px; height:33px; background-repeat:no-repeat;}
+.icon_stop{background-position:-32px -5px;}
+.icon_play{background-position:0px -5px;}
+
+.Spinner{.lineTime_icons{display:block;background-image:url(../img/spinner.gif);overflow:hidden;width:31px; height:31px; background-repeat:no-repeat;}}
+
+.copyRights{width: 200px;display: block;margin-left: auto;margin-right: auto; position: relative;top:-60px;z-index: 1000;}
+#map{overflow: hidden}
+
+.lineTime_slider_modal_disabled {opacidad{-moz-opacity:0.80;opacity:0.80;filter:alpha(opacity=80)}}
+
+.Modal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    /*top: -70%;*/
+    /*width: 200px;*/
+    z-index: 99999;
+}
+.Modal .contOL{
+    padding-top: 5px;
+}
+.Notifications{display: block;margin-left: auto;margin-right: auto;position: relative;top: -100%;width: 300px;z-index: 5000;}
+.Notification{
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 0 6px 0 #555555;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top:0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/*Mensaje de inicio*/
+#msgIni{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 9999;
+}
+#msgIniBg{
+    
+}
+
+#imgBtnIni{
+	width: 592px;
+	height: 310px;
+	position: fixed;
+	top: 25%;
+	left: 25%;
+	
+	background-image: url('../img/mensajeEvalua.png');
+	background-repeat: no-repeat;
+}
+#btnActiveArea{
+	cursor: pointer;
+	float: left;
+	margin-top: 57px;
+	width: 100%;
+	height: 128px;
+}
+
+#btnCLoseMsgIni{
+	float: right;
+	margin-right: 19px;
+	margin-top: 14px;
+	cursor: pointer;
+}
+
+
+.step_option{float:left;border-bottom: 2px solid #DDDDDD;border-left: 2px solid #DDDDDD;border-right: 2px solid #DDDDDD;border-radius: 0px 0px 10px 10px;padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px}
+._active{font-weight:bold;background:#DDDDDD;}
+

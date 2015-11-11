@@ -1,0 +1,39 @@
+.headerLogoINEGI{
+    background-image: url('../img/headerINEGI.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 55px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+.headerLogoMDM{
+    background-image: url('../img/headerMDM.png');
+    background-repeat: no-repeat;
+    width: 329px;
+    height: 55px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 3;
+}
+.headerBackground{
+    background-image: url('../img/header-background.jpg');
+    background-repeat: repeat-x;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 55px;
+    overflow: hidden;
+}
+#headerBtnEvalua{
+	position: absolute;
+	right: 359px;
+	top: 0px;
+	z-index: 3;
+	
+	cursor: pointer;
+}

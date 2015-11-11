@@ -1,0 +1,5 @@
+//////////////////////////////////////////////
+// Mapa Digital de México v6.0  //
+//          //
+//////////////////////////////////////////////
+eval((function(x){var d="";var p=0;while(p<x.length){if(x.charAt(p)!="`")d+=x.charAt(p++);else{var l=x.charCodeAt(p+3)-28;if(l>4)d+=d.substr(d.length-x.charCodeAt(p+1)*96-x.charCodeAt(p+2)+3104-l,l);else d+="`";p+=4}}return d})("define(function () {var scan = ` .&element, list` >#res;if (typeof` 5! != \"un` q\"d\") {` 1,== \"object\") {for (var key in` v$` J'res` O!` h)` 0!` O!== `!T# ?` Y![key] :`!}!`!h*` 5!);}}}}return`!|!};var eventCreate`\"J)`\"C'` >!;(` \"!` 00}).prototype = {run:`#K)`\"C%x`\"?'`!T!x].func();}}, append` Q'id,`!*!` H#.push({id:` 1$` G!});}, remove` P)`!-*=`!5!.length - 1; x >= 0; x--`#u#`!N$id == ` ^!delete`#C\"x]`#A!;`#@#new`\"w#`#G\"listener;` c!ener`##)`\"y/` Y!:{}, newL` N#`!z'name, paren`$'$obj = this`!/!posi` G!= `%r#` H\"`&b+ ?`%S\"` 7\", obj.`!8!) :` #&;` [/` *$` _-` 1%` U(`'6'` 8$[name]`':.` 0, {}`%B!newE`\"r!`):'vt`!d~`!g{evt`\"I8evt + \"_list\"] = []`!?%` U#`)a((` B3`*B!`*3#ts =`(T\"`&1!`&l$`'6%evts;});"))

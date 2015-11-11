@@ -1,0 +1,100 @@
+.line-dot{
+    outline: 1px dotted #141114;
+    outline-offset: 10px; /*Delete if you don't want an offset*/
+}
+.line-dot-big{
+    outline: 2px dotted #141114;
+    outline-offset: 10px; /*Delete if you don't want an offset*/
+}
+.shadow{
+    -moz-box-shadow:    1px 1px 2px 0px #ccc;
+   -webkit-box-shadow: 1px 1px 2px 0px #ccc;
+   box-shadow:         1px 1px 2px 0px #ccc;
+}
+.shadow-inset{
+  -moz-box-shadow: inset 1px 1px 2px 0px #ccc;
+   -webkit-box-shadow: inset 1px 1px 2px 0px #ccc;
+   box-shadow: inset 1px 1px 2px 0px #ccc;
+}
+.shadow-inset-focus:focus{
+    -moz-box-shadow: 1px 1px 3px 1px , #ccc;
+    -webkit-box-shadow: 1px 1px 3px 1px , #ccc;
+    box-shadow: 1px 1px 3px 1px , #ccc;
+    
+    webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -kthtml-transition: all 1s linear;
+    transition: all 1s linear;
+}
+.text-shadow{
+    text-shadow: 1px 1px 2px #2b2b2b;
+    filter: dropshadow(color=#2b2b2b, offx=1, offy=1);
+}
+.transition-1s{
+    webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -kthtml-transition: all 1s linear;
+    transition: all 1s linear;
+}
+.border-1px{border:  1px solid #DDD;}
+.borderRadius{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.borderRadius-top{
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.borderRadius-bottom{
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.borderRadius-right{
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.borderRadius-left{
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.borderRadius-top-right{
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+}
+.borderRadius-top-left{
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+.borderRadius-bottom-right{
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+}
+.borderRadius-bottom-left{
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+}

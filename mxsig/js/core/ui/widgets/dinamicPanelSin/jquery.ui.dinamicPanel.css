@@ -1,0 +1,396 @@
+@import url('panelForms.css');
+@import url('sprites.css');
+*:focus {
+    outline: 0;
+}
+.custom-dinamicPanel{
+    z-index: 2000;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 385px;
+}
+
+ /*Search Panel ------------------------------------------*/
+.dinamicPanel-clearSearch{
+    height: 19px;
+    left: 331px;
+    position: absolute;
+    top: 7px;
+    width: 20px;
+    cursor: pointer;
+}
+.dinamicPanel-search{
+    background-color: #FFFFFF;
+    float: left;
+    height: 35px;
+    width: 400px;
+    padding-left: 5px;
+    
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.dinamicPanel-searchContainer{
+    position: absolute;
+    width: 400px;
+}
+.dinamicPanel-panelContainer{
+    float: left;
+    margin-left: 12px;
+    width: 360px;
+}
+.dinamicPanel-panel{
+    width: 100%;
+    float: left;
+}
+.dinamicPanel-search input[type=text]{
+    background-color: transparent;
+    border: 1px solid #DDDDDD;
+    color: #555;
+    font-size: 120%;
+    height: 23px;
+    overflow: hidden;
+    position: absolute;
+    right: 45px;
+    top: 4px;
+    width: 308px;
+    padding-left: 3px;
+    padding-right: 25px;
+}
+.dinamicPanel-search .dinamicPanel-btnSearch{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    height: 31px !important;
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    width: 34px !important;
+    overflow: hidden;
+}
+.dinamicPanel-spinner{
+    height: 19px;
+    left: -2px;
+    position: absolute;
+    top: 8px;
+    width: 16px;
+}
+/*Dinamic Container ----------------------------------*/
+.dinamicPanel-dinamicSection{
+    
+    float: left;
+    height: 53px;
+    margin-left: 21px;
+    margin-top: 4px;
+    width: 380px;
+}
+
+/*ToolSet --------------------------------------------*/
+.dinamicPanel-toolSet{
+    background-color: #FFFFFF;
+    float: left;
+    height: 55px;
+    overflow: hidden;
+    padding-right: 5px;
+    width: 380px;
+}
+.dinamicPanel-toolContainer{
+    float: left;
+    width: 380px;
+    height: 55px;
+}
+.dinamicPanel-toolTabs{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+}
+.dinamicPanel-tab{
+    float: left;
+    height: 50px;
+}
+.dinamicPanel-tabIconContainer{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.dinamicPanel-tab:first-child{
+    margin-left: 6px;
+}
+
+.dinamicPanel-tab .dinamicPanel-tabIcon{
+    cursor: pointer;
+    width: 32px;
+    height:32px;
+}
+.dinamicPanel-tab .dinamicPanel-tabDescription{cursor: default;float:left;width:100%; height:12px; text-align: center; color: #999;}
+
+.dinamicPanel-h-line{
+	border-top: 1px solid #DDDDDD;
+    float: left;
+    height: 14px;
+    margin-left: 2px;
+    margin-top: 7px;
+    width: 344px;
+}
+
+.dinamicPanel-selector{
+    margin-top: 1px;
+    float: left;
+    width: 100%;
+    height: 5px;
+    background-color: #13679F;
+}
+/*Resultados ---------------------------------------------*/
+.dinamicPanel-resultSelected{
+    background-color: #E7F2FF !important;
+}
+.dinamicPanel-results{
+    float: left;
+    background-color: #FFFFFF;
+    padding: 3px;
+    width: 380px;
+    margin-top: 4px;
+    overflow: hidden;
+}
+.dinamicPanel-resultItem{
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    border-bottom:1px solid #DDD;
+    padding: 6px 0px;
+    font-size: 120%;
+}
+.dinamicPanel-resultItem:last-child{
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    border-bottom:none !important;
+    padding: 6px 0px;
+}
+.dinamicPanel-resultItem:hover{
+    background-color: #F5F5F5;
+}
+.dinamicPanel-resultIcon{
+ float: left;
+ margin-left: 3px;
+ width: 25px;
+ height: 25px;
+ overflow: hidden;
+}
+.dinamicPanel-dataIcon{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.dinamicPanel-resultText{
+    margin-left: 3px;
+    float: left;
+    width: 275px;
+    min-height: 25px;
+}
+.dinamicPanel-resultText .mainLabel{
+    font-size: 120%;
+    float: left;
+    width: 97%
+}
+.dinamicPanel-resultText .detailLabel{
+    float: left;
+    font-size: 95%;
+    color: #03508d;
+}
+.dinamicPanel-searchLink:hover{
+    text-decoration: underline;
+    color: #0476ca;
+    cursor: pointer;
+}
+.dinamicPanel-detailTools{
+    float: right;
+    width: 40px;
+}
+/* close panel */
+.dinamicPanel-panelClose{
+	float: left;
+	margin-top: -3px;
+}
+#btnPanelClose{float: right; cursor: pointer;}
+/* Detalles --------------------------------------------- */
+.dinamicPanel-detailPointer{
+    cursor: pointer;
+}
+.dinamicPanel-detailPointer:hover{
+    background-color: #f9f9f9;
+}
+.dinamicPanel-detailList-item{
+    float: left;
+    font-size: 110% !important;
+    border-top: 1px solid #DDD;
+    width: 300px;
+    padding:4px;
+}
+.dinamicPanel-btn-info, .dinamicPanel-btn-metadato, .dinamicPanel-btn-gallery{
+    cursor: pointer;
+    float: left;
+}
+.dinamicPanel-detail{
+    float: left;
+    background-color: #FFFFFF;
+    padding: 3px;
+    width: 380px;
+    margin-top: 4px;
+    font-size: 120%;
+}
+.dinamicPanel-messages{
+	float: left;
+    background-color: #FFFFFF;
+    padding: 3px;
+    width: 380px;
+    margin-top: 4px;
+    font-size: 120%;
+}
+.dinamicPanel-messages span{
+	float:left;	
+}
+.dinamicPanel-messages label{
+	width:340px;	
+	float:left;
+	margin-left:4px;
+}
+.dinamicPanel-detailHeader{
+    float: left;
+    width: 100%;
+    padding: 3px;
+    padding-bottom: 5px;
+}
+.dinamicPanel-detailPoint{
+    float: left;
+    width: 300px;
+    padding: 3px;
+    padding-bottom: 5px;
+}
+.dinamicPanel-detailMainLabel{
+    font-size: 120%;
+    font-weight: bold;
+    float: left;
+    width: 330px;
+    height: auto;
+}
+.dinamicPanel-detailUbication{
+    font-size: 110%;
+    font-style: italic;
+    float: left;
+    width: 330px;
+    height: auto;
+    padding-bottom: 4px;
+}
+.dinamicPanel-detailTitle{
+    font-size: 130%;
+    font-weight: bold;
+    float: left;
+    width: 330px;
+    height: auto;
+}
+.dinamicPanel-detailClose{
+    float: right;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.dinamicPanel-detailDescription{
+    float: left;
+    font-size: 110% !important;
+}
+.dinamicPanel-detailImg{
+    float: right;
+    max-width: 100px;
+}
+.dinamicPanel-detailImg img{ border: none;}
+/* Styles ----------------------------------------------- */
+.dinamicPanel-closed-h{ height: 0px;}
+.dinamicPanel-hidde{display: none;}
+.dinamicPanel-border{
+    border: solid 1px #DDD;
+}
+.dinamicPanel-inputText{
+    background-color: transparent;
+    border: 1px solid #DDDDDD;
+    color: #555555;
+    font-size: 120%;
+    height: 23px;
+    overflow: hidden;
+    position: absolute;
+    right: 45px;
+    top: 5px;
+    width: 328px;
+    padding-left: 3px;
+}
+.dinamicPanel-inset-focus:focus{
+    font-weight: bold;
+    color: #000;
+    border: 1px solid #aad9c9 !important;
+    background-color: #e8f4f0 !important;
+    -moz-box-shadow: inset 1px 1px 2px 0px #aad9c9;
+    -webkit-box-shadow: inset 1px 1px 2px 0px #aad9c9;
+    box-shadow: inset 1px 1px 2px 0px #aad9c9;
+}
+.dinamicPanel-shadow{
+   -moz-box-shadow:    1px 1px 2px 0px #555;
+   -webkit-box-shadow: 1px 1px 2px 0px #555;
+   box-shadow:         1px 1px 2px 0px #555;
+   
+   /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#555555')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#555555');
+   
+}
+.dinamicPanel-shadow-inset{
+   -moz-box-shadow: inset 1px 1px 2px 0px #999;
+   -webkit-box-shadow: inset 1px 1px 2px 0px #999;
+   box-shadow: inset 1px 1px 2px 0px #999;
+}
+.dinamicPanel-transition{
+    webkit-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -o-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -moz-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -ms-transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+    -kthtml-transition: all 0.4s lcubic-bezier(0.52,0,0.48,1);
+    transition: all 0.4s cubic-bezier(0.52,0,0.48,1);
+}
+/* ajustes -------------------------------------------------------*/
+input::-webkit-input-placeholder {
+   color: #888;
+}
+input:-moz-placeholder { /* Firefox 18- */
+   color: #888;  
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: #888;  
+}
+input:-ms-input-placeholder {  
+   color: #888;  
+}
+.dinamicPanel-box-sizing{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dinamic_flatBtn{
+	margin-top: 2px;
+	width: auto;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	cursor: pointer;
+}
+.dinamic_flatBtn *{float: left; cursor: pointer;}
+.dinamic_flatBtn label{margin-left: 3px;margin-top: 3px;max-width: 40px;}
+.dinamic_flatBtn:hover{
+	background-color: #EEE;
+}
+.measureOption button{ width: 120px;}
+.blinkBlue{background-color: #c6eaff;}
